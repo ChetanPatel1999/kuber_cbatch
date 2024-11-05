@@ -2,13 +2,13 @@
 void main()
 {
     int a, b, ans;
-    a = 12;
-    b = 12;
-    // ans= a<b;
+    a = 89;
+    b = 89;
+    //ans = a < b;
     // ans=a>b;
-    //  ans=a<=b;
+     // ans=a<=b;
     // ans=a>=b;
     // ans = a == b;
-    ans = a != b;
+     ans = a != b;
     printf("ans = %d", ans);
 }

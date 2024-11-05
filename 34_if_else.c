@@ -5,7 +5,8 @@ void main()
   int num;
   printf("enter a num :  ");
   scanf("%d",&num);
-  if(num%5==0)
+  if(
+    %5==0)
   {
     printf("num is divisible by 5");
   }

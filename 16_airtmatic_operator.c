@@ -3,7 +3,7 @@ void main()
 {
   int a,b,ans;
   a=20;
-  b=8;
+  b=4;
   ans=a+b;
   //ans=a-b;
   //ans=a*b;
