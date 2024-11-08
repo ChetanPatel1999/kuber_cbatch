@@ -3,8 +3,9 @@
 void main()
 {
     int i;
-    for (i = 1; i <= 10; i++) // 13
+    for (i = 5; i <= 10; i++)//-2
     {
-        printf("%d ", i); // 1 2 3
+        printf("%d ", i);
     }
+
 }
