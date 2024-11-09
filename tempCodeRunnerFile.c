@@ -1,1 +1,2 @@
-("please enter number for order : ");
+
+    printf("%d ",i);
