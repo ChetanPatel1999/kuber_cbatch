@@ -13,5 +13,4 @@ for(i=1;i<=num;i++)//6
     fact=fact*i;//120
 }
 printf("factorial of %d = %d",num,fact);
-
 }

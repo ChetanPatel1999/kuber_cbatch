@@ -3,11 +3,8 @@
 void main()
 {
  int i;
- printf("before for loop\n");
- for( i=1 ; i<=5  ;  i++ )//11
+ for( i=1 ; i<=15  ;  i++ )//
  {
-    printf("hi students \n");//6
-    printf("ap kaise ho\n");
+    printf("hello world \n");
  }
- printf("after for loop");
 }
