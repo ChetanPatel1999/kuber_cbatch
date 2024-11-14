@@ -9,7 +9,7 @@ void main()
     printf("press 3 for mul : \n");
     printf("press 4 for div : \n");
     printf("enter a num : ");
-    scanf("%d", &num); // 2
+    scanf("%d", &num); //3
     switch (num)
     {
     case 1:
