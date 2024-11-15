@@ -1,2 +1,1 @@
-
-    printf("%d ",i);
+printf("* ");
