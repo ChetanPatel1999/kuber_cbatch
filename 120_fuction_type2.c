@@ -6,43 +6,35 @@ void add(int a, int b)
     c = a + b;
     printf("sum of %d and %d = %d\n", a, b, c);
 }
-void cube(int n)
+void cube(int num)
 {
     int c;
-    c = n * n * n;
-    printf("cube of %d = %d\n", n, c);
-}
-void upper(char ch) // ch='a';
-{
-    ch = ch - 32; // 65
-    printf("uper case : %c\n", ch);
-}
-void factorial(int num) // 5
-{
-    int i, fact = 1;
-    for (i = 1; i <= num; i++) // 6
-    {
-        fact = fact * i; // 120
-    }
-    printf("factorila of %d = %d\n", num, fact);
+    c = num * num * num;
+    printf("cube of %d = %d\n", num, c);
 }
 void range(int s, int e)
 {
     int i;
-    for (i = s; i <= e; i++) // 3
+    for (i =s; i <= e; i++) // 2
     {
-        factorial(i);
+        cube(i);
     }
 }
+void upper(char ch)// ch = 'a'
+{
+   ch=ch-32; // 97-32 = 65
+   printf("upper case : %c\n",ch);
+}
+// A = 65 B= 66  a = 97 b = 98
 void main()
 {
-    int x = 3, y = 9;
-    add(x, y);
-    add(12, 6);
-    add(8, 4);
-    cube(3);
+    // int x = 34, y = 6;
+    // add(12, 7);
+    // add(4, 6);
+    // add(x, y);
+    // cube(4);
+    // range(1, 5);
+    upper('a');
+    upper('b');
     upper('l');
-    range(1, 5);
-    range(7,9);
-    
 }
