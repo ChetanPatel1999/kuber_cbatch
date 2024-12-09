@@ -1,1 +1,1 @@
- static 
+ptr=&a;

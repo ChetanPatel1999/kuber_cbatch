@@ -8,7 +8,7 @@ void main()
     printf("address of a : %d\n", &a);         // 6487580
     printf("address of a by ptr : %d\n", ptr); // 6487580
     ptr++;
-    printf("value of ptr :%d \n",ptr);
+    printf("value of ptr :%d \n",ptr);//584
     ptr=ptr+1;
-    printf("value of ptr :%d \n",ptr);
+    printf("value of ptr :%d \n",ptr);//588
 }

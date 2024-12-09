@@ -11,11 +11,11 @@ void main()
         scanf("%d",ptr);
         ptr++;//420
     }
-    printf("array element are : \n");
-    ptr=&arr[0];//400
+    //12 34 56 78 90
+    printf("array reverse element are : \n");
     for (i = 0; i < 5; i++)//5
     {
-        printf("%d\n", *ptr);//12 34 56 78 90
-        ptr++;//404
+        ptr--;//416
+        printf("%d\n", *ptr);
     }
 }
