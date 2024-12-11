@@ -4,7 +4,7 @@ void main()
 {
     int arr[5];
     int *ptr, i;
-    ptr = &arr[0];
+    ptr = &arr[0];//400
     printf("enter array element : \n");
     for(i=0;i<5;i++)//5
     {
