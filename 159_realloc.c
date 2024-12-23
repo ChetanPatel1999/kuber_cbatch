@@ -5,23 +5,24 @@ int main()
     int *ptr, i, *temp;
     ptr = (int *)malloc(5 * sizeof(int));
     temp = ptr;
-    printf("adress of memory: ");
     for (i = 0; i < 5; i++)
     {
-        printf("%d ", ptr);
+        scanf("%d", ptr);
         ptr++;
     }
     ptr = temp;
-    ptr = realloc(ptr, 8 * sizeof(int));
-    if(ptr==NULL)
+    printf("address of memory and value: \n");
+    for (i = 0; i < 5; i++)
     {
-        printf("memory is not allocate \n");
-        return 1;
+        printf("%d= %d \n", ptr,*ptr);
+        ptr++;
     }
-    printf("\nadress of increase memory: ");
+    ptr = temp;
+    ptr = (int *)realloc(ptr, 8 * sizeof(int));
+    printf("address of memory and value: \n");
     for (i = 0; i < 8; i++)
     {
-        printf("%d ", ptr);
+        printf("%d= %d \n", ptr,*ptr);
         ptr++;
     }
     ptr = temp;
