@@ -4,7 +4,7 @@ void main()
  char ch[50];
  int i,c=0;
  printf("enter a string :");
- gets(ch);//chetana
+ gets(ch);//chetan
  printf("string : %s\n",ch);
  for(i=0;ch[i]!='\0';i++)
  {
