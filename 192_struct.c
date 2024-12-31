@@ -24,5 +24,4 @@ void main()
     printf("pen name : %s\n",p2.cname);
     printf("pen price : %d\n",p2.price);
     printf("pen rating : %.1f\n",p2.rating);
-
 }
